@@ -146,8 +146,6 @@ def create_assistants(scenario_folder):
 
 
 def get_decision(scenario_folder):
-    client = OpenAI()
-
     scenario = get_scenario_input()
 
     file_names = get_proposal_filenames(scenario_folder)
